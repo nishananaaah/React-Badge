@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Input from './Input'
 import Display from './Display'
+import List from './Practices/List'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      <Input/>
-     <Display  fruits={["apple","banana"]}/>
+     <Display />
+     <List colors={["red","green","blue","orange"]}/>
     </>
   )
 }
