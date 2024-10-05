@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ColorChange from './Practices/ColorChange'
+import UseState from './Practices/UseState'
+// import ColorChange from './Practices/ColorChange'
 // import Input from './Input'
 // import Display from './Display'
 // import List from './Practices/List'
@@ -17,7 +18,8 @@ function App() {
      <Display />
      <List colors={["red","green","blue","orange"]}/>
      <Counter/> */}
-     <ColorChange/>
+     {/* <ColorChange/> */}
+     <UseState/>
     </>
   )
 }
