@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UseState from './Practices/UseState'
+import Memo from './Practices/Memo'
 // import ColorChange from './Practices/ColorChange'
 // import Input from './Input'
 // import Display from './Display'
@@ -19,7 +20,9 @@ function App() {
      <List colors={["red","green","blue","orange"]}/>
      <Counter/> */}
      {/* <ColorChange/> */}
-     <UseState/>
+     {/* <UseState/> */}
+     <Memo/>
+    
     </>
   )
 }
