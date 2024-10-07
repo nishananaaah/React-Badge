@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import UseState from './Practices/UseState'
-import Memo from './Practices/Memo'
+import Reducer from './Practices/Reducer'
+// import UseState from './Practices/UseState'
+// import Memo from './Practices/Memo'
 // import ColorChange from './Practices/ColorChange'
 // import Input from './Input'
 // import Display from './Display'
@@ -21,7 +22,8 @@ function App() {
      <Counter/> */}
      {/* <ColorChange/> */}
      {/* <UseState/> */}
-     <Memo/>
+     {/* <Memo/> */}
+     <Reducer/>
     
     </>
   )
