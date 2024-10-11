@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const About = () => {
+const Another = () => {
   return (
     <div>
-      About
-    
+      another
     </div>
   )
 }
 
-export default About
+export default Another

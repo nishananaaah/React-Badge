@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div>
       Contact
-      <Link to='contact'>Contact</Link>
+    
     </div>
   )
 }
