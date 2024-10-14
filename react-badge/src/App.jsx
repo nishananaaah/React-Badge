@@ -11,12 +11,13 @@ import Context from './Practices/Context'
 // import Display from './Display'
 // import List from './Practices/List'
 // import Counter from './Practices/Counter'
-import {BrowserRouter, Routes,Route, Link } from 'react-router-dom'
-import Home from './Practices/Router/Home'
-import About from './Practices/Router/About'
-import Contact from './Practices/Router/Contact'
-import Another from './Practices/Another'
-import Input1 from './Practices/Input1'
+// import {BrowserRouter, Routes,Route, Link } from 'react-router-dom'
+// import Home from './Practices/Router/Home'
+// import About from './Practices/Router/About'
+// import Contact from './Practices/Router/Contact'
+// import Another from './Practices/Another'
+// import Input1 from './Practices/Input1'
+import FetchApi from './Practices/FetchApi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,7 +36,7 @@ function App() {
      {/* <Context/>
      <Input1/> */}
   
-     <BrowserRouter>
+     {/* <BrowserRouter>
      <Link to='/about'>about</Link>
      <br />
     <Link to='/contact'>contact</Link>
@@ -53,8 +54,9 @@ function App() {
       {/* <Route path="/" element={<InputComponent/>} />
       <Route path="/display" element={<DisplayComponent />} /> */}
      
-     </Routes>
-     </BrowserRouter>
+     {/* </Routes>
+    //  </BrowserRouter> */} 
+    <FetchApi/>
     
     </>
   )
