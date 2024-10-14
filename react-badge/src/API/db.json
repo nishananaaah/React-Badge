@@ -1,0 +1,36 @@
+{"datas":
+[
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "description": "A latest model smartphone with advanced features.",
+      "price": 699.99,
+      "categoryId": 1,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "description": "A powerful laptop for gaming and productivity.",
+      "price": 1299.99,
+      "categoryId": 1,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Air Conditioner",
+      "description": "Energy-efficient air conditioner for home use.",
+      "price": 499.99,
+      "categoryId": 2,
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "name": "Fiction Book",
+      "description": "An engaging fictional novel.",
+      "price": 19.99,
+      "categoryId": 3,
+      "stock": 100
+    }
+  ]  
+}
